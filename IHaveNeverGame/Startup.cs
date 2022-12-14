@@ -1,3 +1,5 @@
+using IHaveNeverGame.Models.Domain;
+using IHaveNeverGame.Models.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +26,12 @@ namespace IHaveNeverGame
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<IDataLoader<Question>, XMLDataLoader<Question>>();
+            services.AddSingleton(typeof(Context));
+            services.AddTransient<IRepository<Player>, Repository<Player>>();
+            services.AddTransient<IRepository<Question>, Repository<Question>>();
+            
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

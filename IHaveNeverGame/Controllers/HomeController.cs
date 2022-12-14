@@ -1,4 +1,6 @@
 ﻿using IHaveNeverGame.Models;
+using IHaveNeverGame.Models.Domain;
+using IHaveNeverGame.Models.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -11,11 +13,16 @@ namespace IHaveNeverGame.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IRepository<Question> questionRepository;
+        private readonly IRepository<Player> playerRepository;
+        private readonly ILogger<HomeController> logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IRepository<Player> playerRepository, IRepository<Question> questionRepository,
+            ILogger<HomeController> logger)
         {
-            _logger = logger;
+            this.questionRepository = questionRepository;
+            this.playerRepository = playerRepository;
+            this.logger = logger;
         }
 
         public IActionResult Index()
