@@ -22,6 +22,7 @@ namespace IHaveNeverGame
             services.AddControllersWithViews();
             services.AddTransient<IDataLoader<Question>, XMLDataLoader<Question>>();
             services.AddSingleton(typeof(Context));
+            services.AddSingleton(typeof(IdentifierGenerator));
             services.AddSingleton<IRepository<Player>, Repository<Player>>();
             services.AddTransient<IRepository<Question>, Repository<Question>>();
             
