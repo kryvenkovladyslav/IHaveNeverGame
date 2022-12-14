@@ -29,6 +29,21 @@ namespace IHaveNeverGame.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult CreateConfigure(int playersCount)
+        {
+            List<Player> players = new List<Player>();
+            for (int i = 0; i < playersCount; i++)
+                players.Add(new Player());
+
+            return View(players);
+        }
+        [HttpPost]
+        public IActionResult StartGame(List<Player> players)
+        {
+            playerRepository.AddRange(players);
+            return View("Index");
+        }
 
         public IActionResult Privacy()
         {

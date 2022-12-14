@@ -4,5 +4,13 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        <form class="m-5" asp-action="CreateConfigure" asp-controller="Home" method="post">
+            <div class="form-group mb-5">
+                <label class="form-control" for="playersCount">Количество игроков:</label>
+                <input class="form-control mb-2" name="playersCount" type="text" />
+                <button class="btn btn-success" type="submit">Начать!</button>
+            </div>
+        </form>
+    </div>
 </div>

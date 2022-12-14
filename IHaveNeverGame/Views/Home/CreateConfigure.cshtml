@@ -1,0 +1,17 @@
+﻿@model List<Player>
+@{ int index = default; }
+<div>
+    <form asp-action="StartGame" asp-controller="Home" method="post">
+        @foreach (var player in Model)
+        {
+            <input type="hidden" asp-for="@Model[@index].ID" value="@index" />
+            <div class="form-group">
+                <label class="form-control" asp-for="@Model[index].Name">Имя</label>
+                <input class="form-control" type="text" asp-for="@Model[index].Name" />
+            </div>
+            index++;
+        }
+        <button class="btn btn-sm btn-success" type="submit">Начать игру!</button>
+
+    </form>
+</div>
