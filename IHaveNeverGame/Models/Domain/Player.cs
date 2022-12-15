@@ -5,10 +5,10 @@ using System.Text;
 namespace IHaveNeverGame.Models.Domain
 {
     [Serializable]
-    public class Player : IEquatable<Player>
+    public class Player : Entity, IEquatable<Player>
     {
-        public long ID { get; set; }
         public string Name { get; set; }
+        public int ShotCount { get; set; }
         public long Score { get; set; }
 
         public override string ToString()

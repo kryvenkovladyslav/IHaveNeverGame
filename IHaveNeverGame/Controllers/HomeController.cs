@@ -1,13 +1,12 @@
 ﻿using IHaveNeverGame.Models;
 using IHaveNeverGame.Models.Domain;
 using IHaveNeverGame.Models.Repository;
+using IHaveNeverGame.Models.ViewComonents;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace IHaveNeverGame.Controllers
 {
@@ -30,8 +29,10 @@ namespace IHaveNeverGame.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult CreateConfigure(int playersCount)
+        public IActionResult CreateConfigure(int playersCount, int countOfShots)
         {
+            GameContext.CountOfShots = countOfShots;
+
             List<Player> players = new List<Player>();
             for (int i = 0; i < playersCount; i++)
                 players.Add(new Player());
@@ -42,11 +43,32 @@ namespace IHaveNeverGame.Controllers
         public IActionResult StartGame(List<Player> players)
         {
             playerRepository.AddRange(players);
-            return View("Index");
+
+            var viewComponent = new GameViewComponent
+            {
+                Players = playerRepository.Entities.ToList(),
+                Questions = questionRepository.Entities.ToList()
+            };
+
+            return View("Game", viewComponent);
         }
 
+        public IActionResult AddShot(long id, int shotCount)
+        {
+            var toChange = playerRepository.Entities.ToList().Where(entity => entity.ID == id).First();
+            toChange.ShotCount++;
+            playerRepository.Update(toChange);
+
+            var viewComponent = new GameViewComponent
+            {
+                Players = playerRepository.Entities.ToList(),
+                Questions = questionRepository.Entities.ToList()
+            };
+            return View("Game",viewComponent);
+        }
         public IActionResult Privacy()
         {
+           
             return View();
         }
 

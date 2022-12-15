@@ -1,0 +1,48 @@
+﻿@model GameViewComponent
+@{ 
+    bool IsAnchorEnabled(Player player)
+    {
+        return player.ShotCount != GameContext.CountOfShots;
+    }
+}
+
+<div class="text-center align-items-center">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Игрок</th>
+                <th>Баллы</th>
+                <th>Очки</th>
+                <th>@string.Empty</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var player in Model.Players)
+            {
+            <tr>
+                <td>@player.Name</td>
+                <td>@player.ShotCount</td>
+                <td>@player.Score</td>
+                <td>
+                    @if (IsAnchorEnabled(player))
+                    {
+                        <a aria-disabled="true" asp-action="AddShot" asp-controller="Home" asp-route-id="@player.ID" asp-route-shotCount="@player.ShotCount">+</a>
+                    }
+                    else
+                    {
+                        <button>Пей!</button>
+                    }
+                </td>
+                <td>
+                    @if (!IsAnchorEnabled(player))
+                    {
+                        <a>Отказываюсь</a>
+                    }
+
+                </td>
+
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
