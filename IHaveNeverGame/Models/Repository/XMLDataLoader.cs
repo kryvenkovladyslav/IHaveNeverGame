@@ -6,7 +6,7 @@ namespace IHaveNeverGame.Models.Repository
 {
     public class XMLDataLoader<T> : IDataLoader<T>
     {
-        private readonly string path = @"C:\Games\Questions.xml";
+        private readonly string path = @".\Questions.xml";
         public IEnumerable<T> LoadData()
         {
             List<T> result;

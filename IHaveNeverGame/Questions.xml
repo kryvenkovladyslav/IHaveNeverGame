@@ -1,0 +1,1239 @@
+<?xml version="1.0"?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Question>
+    <ID>1</ID>
+    <Text>Я Никогда Не… звонил в полицию ради розыгрыша.</Text>
+  </Question>
+  <Question>
+    <ID>2</ID>
+    <Text>Я Никогда Не… встречал знаменитость.</Text>
+  </Question>
+  <Question>
+    <ID>3</ID>
+    <Text>Я Никогда Не… переписывался 4 часа подряд.</Text>
+  </Question>
+  <Question>
+    <ID>4</ID>
+    <Text>Я Никогда Не… убегал от полицейских.</Text>
+  </Question>
+  <Question>
+    <ID>5</ID>
+    <Text>Я Никогда Не… просыпался пьяным.</Text>
+  </Question>
+  <Question>
+    <ID>6</ID>
+    <Text>Я Никогда Не… подсчитывал калории.</Text>
+  </Question>
+  <Question>
+    <ID>7</ID>
+    <Text>Я Никогда Не… крал что-то дороже $10.</Text>
+  </Question>
+  <Question>
+    <ID>8</ID>
+    <Text>Я Никогда Не… отправлял сексуальное селфи кому-то.</Text>
+  </Question>
+  <Question>
+    <ID>9</ID>
+    <Text>Я Никогда Не… влюблялся в кого-то во время свидания с другим человеком.</Text>
+  </Question>
+  <Question>
+    <ID>10</ID>
+    <Text>Я Никогда Не… разбивал машину.</Text>
+  </Question>
+  <Question>
+    <ID>11</ID>
+    <Text>Я Никогда Не… кайфовал от песни Джастина Бибера.</Text>
+  </Question>
+  <Question>
+    <ID>12</ID>
+    <Text>Я Никогда Не… возбуждался/возбуждалась от своего друга/подруги.</Text>
+  </Question>
+  <Question>
+    <ID>13</ID>
+    <Text>Я Никогда Не… пытался поворить дома экшн сцены из фильмов.</Text>
+  </Question>
+  <Question>
+    <ID>14</ID>
+    <Text>Я Никогда Не… катался на четырёхколёсном велосипеде.</Text>
+  </Question>
+  <Question>
+    <ID>15</ID>
+    <Text>Я Никогда Не… портил чей-то отдых.</Text>
+  </Question>
+  <Question>
+    <ID>16</ID>
+    <Text>Я Никогда Не… пробовал соленые огурцы вместе с арахисовым маслом.</Text>
+  </Question>
+  <Question>
+    <ID>17</ID>
+    <Text>Я Никогда Не… засыпал в классе, а потом просыпалсы со слюнями у рта.</Text>
+  </Question>
+  <Question>
+    <ID>18</ID>
+    <Text>Я Никогда Не… ел ушную серу.</Text>
+  </Question>
+  <Question>
+    <ID>19</ID>
+    <Text>Я Никогда Не… пил алкоголь до 18 лет.</Text>
+  </Question>
+  <Question>
+    <ID>20</ID>
+    <Text>Я Никогда Не… был в наручниках.</Text>
+  </Question>
+  <Question>
+    <ID>21</ID>
+    <Text>Я Никогда Не… имел домика на дереве.</Text>
+  </Question>
+  <Question>
+    <ID>22</ID>
+    <Text>Я Никогда Не… ходил по-маленькому в бассейн.</Text>
+  </Question>
+  <Question>
+    <ID>23</ID>
+    <Text>Я Никогда Не… спорил на что-то.</Text>
+  </Question>
+  <Question>
+    <ID>24</ID>
+    <Text>Я Никогда Не… ездил на животном.</Text>
+  </Question>
+  <Question>
+    <ID>25</ID>
+    <Text>Я Никогда Не… видел аллигатора или крокодила в дикой природе.</Text>
+  </Question>
+  <Question>
+    <ID>26</ID>
+    <Text>Я Никогда Не… хотел убить кого-то.</Text>
+  </Question>
+  <Question>
+    <ID>27</ID>
+    <Text>Я Никогда Не… пил алкоголь с чьего-то тела.</Text>
+  </Question>
+  <Question>
+    <ID>28</ID>
+    <Text>Я Никогда Не… ездил на мотоцикле.</Text>
+  </Question>
+  <Question>
+    <ID>29</ID>
+    <Text>Я Никогда Не… пропускал уроки.</Text>
+  </Question>
+  <Question>
+    <ID>30</ID>
+    <Text>Я Никогда Не… засыпал на работе.</Text>
+  </Question>
+  <Question>
+    <ID>31</ID>
+    <Text>Я Никогда Не… говорил, что мое домашнее задание съела моя собака.</Text>
+  </Question>
+  <Question>
+    <ID>32</ID>
+    <Text>Я Никогда Не… опаздывал в школу или на работу.</Text>
+  </Question>
+  <Question>
+    <ID>33</ID>
+    <Text>Я Никогда Не… срывал штаны какого-то ребенка вниз.</Text>
+  </Question>
+  <Question>
+    <ID>34</ID>
+    <Text>Я Никогда Не… пукал в присутствии одноклассника или коллеги.</Text>
+  </Question>
+  <Question>
+    <ID>35</ID>
+    <Text>Я Никогда Не… имел работу.</Text>
+  </Question>
+  <Question>
+    <ID>36</ID>
+    <Text>Я Никогда Не… списывал во время контрольной работы.</Text>
+  </Question>
+  <Question>
+    <ID>37</ID>
+    <Text>Я Никогда Не… имел ситуацию, когда забывал, что сегодня выходной и потом шел на работу или в школу.</Text>
+  </Question>
+  <Question>
+    <ID>38</ID>
+    <Text>Я Никогда Не… лгал начальнику.</Text>
+  </Question>
+  <Question>
+    <ID>39</ID>
+    <Text>Я Никогда Не… издевался над кем-то.</Text>
+  </Question>
+  <Question>
+    <ID>40</ID>
+    <Text>Я Никогда Не… работал в продажах.</Text>
+  </Question>
+  <Question>
+    <ID>41</ID>
+    <Text>Я Никогда Не… имел рвоту на работе или в школе.</Text>
+  </Question>
+  <Question>
+    <ID>42</ID>
+    <Text>Я Никогда Не… флиртовал с моими учителем/учительницей.</Text>
+  </Question>
+  <Question>
+    <ID>43</ID>
+    <Text>Я Никогда Не… работал в зоопарке.</Text>
+  </Question>
+  <Question>
+    <ID>44</ID>
+    <Text>Я Никогда Не… притворялся больным, чтобы не идти в школу или на работу.</Text>
+  </Question>
+  <Question>
+    <ID>45</ID>
+    <Text>Я Никогда Не… ругался с одноклассником или клиентом.</Text>
+  </Question>
+  <Question>
+    <ID>46</ID>
+    <Text>Я Никогда Не… крал что-то с работы или из школы.</Text>
+  </Question>
+  <Question>
+    <ID>47</ID>
+    <Text>Я Никогда Не… сожалел о выбранной карьере.</Text>
+  </Question>
+  <Question>
+    <ID>48</ID>
+    <Text>Я Никогда Не… подвергался издевательствам.</Text>
+  </Question>
+  <Question>
+    <ID>49</ID>
+    <Text>Я Никогда Не… врал о проработанных часах на работе.</Text>
+  </Question>
+  <Question>
+    <ID>50</ID>
+    <Text>Я Никогда Не… был влюблен в учителя/ учительницу.</Text>
+  </Question>
+  <Question>
+    <ID>51</ID>
+    <Text>Я Никогда Не… работал после полночи.</Text>
+  </Question>
+  <Question>
+    <ID>52</ID>
+    <Text>Я Никогда Не… разговаривал на иностранном языке.</Text>
+  </Question>
+  <Question>
+    <ID>53</ID>
+    <Text>Я Никогда Не… ходил на работу или в школу в пижаме.</Text>
+  </Question>
+  <Question>
+    <ID>54</ID>
+    <Text>Я Никогда Не… уволнял кого-то.</Text>
+  </Question>
+  <Question>
+    <ID>55</ID>
+    <Text>Я Никогда Не… проклянал учителя.</Text>
+  </Question>
+  <Question>
+    <ID>56</ID>
+    <Text>Я Никогда Не… кричал на клиента.</Text>
+  </Question>
+  <Question>
+    <ID>57</ID>
+    <Text>Я Никогда Не… целовал кого-то в школе.</Text>
+  </Question>
+  <Question>
+    <ID>58</ID>
+    <Text>Я Никогда Не… говорил плохое о своем начальнике за его спиной.</Text>
+  </Question>
+  <Question>
+    <ID>59</ID>
+    <Text>Я Никогда Не… притворялся больным, чтобы пойти домой.</Text>
+  </Question>
+  <Question>
+    <ID>60</ID>
+    <Text>Я Никогда Не… терялся/заблуждался, когда был пьян.</Text>
+  </Question>
+  <Question>
+    <ID>61</ID>
+    <Text>Я Никогда Не… падал из-за пьянства.</Text>
+  </Question>
+  <Question>
+    <ID>62</ID>
+    <Text>Я Никогда Не… играл в игры на выпивку.</Text>
+  </Question>
+  <Question>
+    <ID>63</ID>
+    <Text>Я Никогда Не… открывал бутылку другой бутылкой.</Text>
+  </Question>
+  <Question>
+    <ID>64</ID>
+    <Text>Я Никогда Не… пил в одиночестве.</Text>
+  </Question>
+  <Question>
+    <ID>65</ID>
+    <Text>Я Никогда Не… пил для уверенности.</Text>
+  </Question>
+  <Question>
+    <ID>66</ID>
+    <Text>Я Никогда Не… укачивался/вырывал в такси из-за алкоголя.</Text>
+  </Question>
+  <Question>
+    <ID>67</ID>
+    <Text>Я Никогда Не… не выпивал бутыку пива менее чем за 10 секунд, а потом меня тошнило.</Text>
+  </Question>
+  <Question>
+    <ID>68</ID>
+    <Text>Я Никогда Не… попадал в аварию во время алкогольного опьянения.</Text>
+  </Question>
+  <Question>
+    <ID>69</ID>
+    <Text>Я Никогда Не… пил шоты/рюмки.</Text>
+  </Question>
+  <Question>
+    <ID>70</ID>
+    <Text>Я Никогда Не… выпивал 700мл бутылку водки за ночь.</Text>
+  </Question>
+  <Question>
+    <ID>71</ID>
+    <Text>Я Никогда Не… тратил более €100 на свой выход в клуб/на вечеринку.</Text>
+  </Question>
+  <Question>
+    <ID>72</ID>
+    <Text>Я Никогда Не… сваливал вину на алкоголь, когда что-то не то делал.</Text>
+  </Question>
+  <Question>
+    <ID>73</ID>
+    <Text>Я Никогда Не… спал на улице, когда был пьян.</Text>
+  </Question>
+  <Question>
+    <ID>74</ID>
+    <Text>Я Никогда Не… пил виски, как воду.</Text>
+  </Question>
+  <Question>
+    <ID>75</ID>
+    <Text>Я Никогда Не… звонил кому-то пьяным.</Text>
+  </Question>
+  <Question>
+    <ID>76</ID>
+    <Text>Я Никогда Не… заходил в неправильный дом, когда был пьян.</Text>
+  </Question>
+  <Question>
+    <ID>77</ID>
+    <Text>Я Никогда Не… занимался спортом и пил алкоголь одновременно.</Text>
+  </Question>
+  <Question>
+    <ID>78</ID>
+    <Text>Я Никогда Не… сваливал вину на алкоголь за что-то мной сказанное.</Text>
+  </Question>
+  <Question>
+    <ID>79</ID>
+    <Text>Я Никогда Не… имел месяц без алкоголя с тех пор, как в первый раз его попробовал.</Text>
+  </Question>
+  <Question>
+    <ID>80</ID>
+    <Text>Я Никогда Не… пил в общественном транспорте.</Text>
+  </Question>
+  <Question>
+    <ID>81</ID>
+    <Text>Я Никогда Не… терял сознание из-за алкоголя.</Text>
+  </Question>
+  <Question>
+    <ID>82</ID>
+    <Text>Я Никогда Не… пил из собачьей миски.</Text>
+  </Question>
+  <Question>
+    <ID>83</ID>
+    <Text>Я Никогда Не… падал с дивана в нетрезвом состоянии.</Text>
+  </Question>
+  <Question>
+    <ID>84</ID>
+    <Text>Я Никогда Не… разговаривал с пьяным человеком.</Text>
+  </Question>
+  <Question>
+    <ID>85</ID>
+    <Text>Я Никогда Не… имел ситуацию, когда мне приходилось бы кого-то спрашивать, где я сейчас нахожусь утром.</Text>
+  </Question>
+  <Question>
+    <ID>86</ID>
+    <Text>Я Никогда Не… напивался до такого состояния, что ходил по-маленькому прямо в кровать.</Text>
+  </Question>
+  <Question>
+    <ID>87</ID>
+    <Text>Я Никогда Не… напивался так, что не помнил бы, что было ночью.</Text>
+  </Question>
+  <Question>
+    <ID>88</ID>
+    <Text>Я Никогда Не… имел такую ситуацию, что бы я не мог пить текилу снова после плохой ночи.</Text>
+  </Question>
+  <Question>
+    <ID>89</ID>
+    <Text>Я Никогда Не… готовил ни одного коктейля.</Text>
+  </Question>
+  <Question>
+    <ID>90</ID>
+    <Text>Я Никогда Не… имел ситуацию, что бы мне было плохо из-за алкоголя.</Text>
+  </Question>
+  <Question>
+    <ID>91</ID>
+    <Text>Я Никогда Не… ушел с кем-то домой только потому, что был пьян.</Text>
+  </Question>
+  <Question>
+    <ID>92</ID>
+    <Text>Я Никогда Не… пел в караоке в пьяном виде.</Text>
+  </Question>
+  <Question>
+    <ID>93</ID>
+    <Text>Я Никогда Не… переспал с кем-то из-за спора.</Text>
+  </Question>
+  <Question>
+    <ID>94</ID>
+    <Text>Я Никогда Не… был в Секс-шопе.</Text>
+  </Question>
+  <Question>
+    <ID>95</ID>
+    <Text>Я Никогда Не… видел своих родителей голыми.</Text>
+  </Question>
+  <Question>
+    <ID>96</ID>
+    <Text>Я Никогда Не… фантазировал о ком-то другом.</Text>
+  </Question>
+  <Question>
+    <ID>97</ID>
+    <Text>Я Никогда Не… купался голым.</Text>
+  </Question>
+  <Question>
+    <ID>98</ID>
+    <Text>Я Никогда Не… имел группового секса.</Text>
+  </Question>
+  <Question>
+    <ID>99</ID>
+    <Text>Я Никогда Не… плакал во время секса.</Text>
+  </Question>
+  <Question>
+    <ID>100</ID>
+    <Text>Я Никогда Не… имел испуга за беременность.</Text>
+  </Question>
+  <Question>
+    <ID>101</ID>
+    <Text>Я Никогда Не… наблюдал, как кто-то мастурбирует.</Text>
+  </Question>
+  <Question>
+    <ID>102</ID>
+    <Text>Я Никогда Не… заходил к моим родителям во время секса.</Text>
+  </Question>
+  <Question>
+    <ID>103</ID>
+    <Text>Я Никогда Не… думал, что мама моего друга - горячая тётя.</Text>
+  </Question>
+  <Question>
+    <ID>104</ID>
+    <Text>Я Никогда Не… засовывал свой член в пылесос.</Text>
+  </Question>
+  <Question>
+    <ID>105</ID>
+    <Text>Я Никогда Не… фотографировался обнаженным.</Text>
+  </Question>
+  <Question>
+    <ID>106</ID>
+    <Text>Я Никогда Не… играл в покер на раздевание.</Text>
+  </Question>
+  <Question>
+    <ID>107</ID>
+    <Text>Я Никогда Не… пил алкоголь с чеьго-то тела.</Text>
+  </Question>
+  <Question>
+    <ID>108</ID>
+    <Text>Я Никогда Не… спал с незнакомым мне человеком.</Text>
+  </Question>
+  <Question>
+    <ID>109</ID>
+    <Text>Я Никогда Не… имел предложения поучаствовать в тройничке.</Text>
+  </Question>
+  <Question>
+    <ID>110</ID>
+    <Text>Я Никогда Не… никогда не получал футджоб.</Text>
+  </Question>
+  <Question>
+    <ID>111</ID>
+    <Text>Я Никогда Не… использовал смазку.</Text>
+  </Question>
+  <Question>
+    <ID>112</ID>
+    <Text>Я Никогда Не… мастурбировал в ванной.</Text>
+  </Question>
+  <Question>
+    <ID>113</ID>
+    <Text>Я Никогда Не… не доводил себя до оргазма сам после секса, потому что не был удовлетворен во время секса.</Text>
+  </Question>
+  <Question>
+    <ID>114</ID>
+    <Text>Я Никогда Не… нюхал чьи-то трусы (нечистые).</Text>
+  </Question>
+  <Question>
+    <ID>115</ID>
+    <Text>Я Никогда Не… было групповушки с тремя мужчинами.</Text>
+  </Question>
+  <Question>
+    <ID>116</ID>
+    <Text>Я Никогда Не… принимал душ с друзьями.</Text>
+  </Question>
+  <Question>
+    <ID>117</ID>
+    <Text>Я Никогда Не… отшлепывал кого-то старше меня.</Text>
+  </Question>
+  <Question>
+    <ID>118</ID>
+    <Text>Я Никогда Не… использовал чью-ту секс-игрушку.</Text>
+  </Question>
+  <Question>
+    <ID>119</ID>
+    <Text>Я Никогда Не… флиртовал с кем-то, чтобы заставить кого-то ревновать.</Text>
+  </Question>
+  <Question>
+    <ID>120</ID>
+    <Text>Я Никогда Не… платил за секс.</Text>
+  </Question>
+  <Question>
+    <ID>121</ID>
+    <Text>Я Никогда Не… пытался использовать музыку, чтобы задать себе “настроение”.</Text>
+  </Question>
+  <Question>
+    <ID>122</ID>
+    <Text>Я Никогда Не… снимал шаловливых видео.</Text>
+  </Question>
+  <Question>
+    <ID>123</ID>
+    <Text>Я Никогда Не… получал жалобу на шум из-за секса.</Text>
+  </Question>
+  <Question>
+    <ID>124</ID>
+    <Text>Я Никогда Не… полюбопытсвовал и использовал виагру.</Text>
+  </Question>
+  <Question>
+    <ID>125</ID>
+    <Text>Я Никогда Не… флиртовал с кем-то, будучи в отношениях.</Text>
+  </Question>
+  <Question>
+    <ID>126</ID>
+    <Text>Я Никогда Не… был в отношениях по причине, что это лучше, чем просто быть одному.</Text>
+  </Question>
+  <Question>
+    <ID>127</ID>
+    <Text>Я Никогда Не… встречался сразу с несколькими людьми одновременно.</Text>
+  </Question>
+  <Question>
+    <ID>128</ID>
+    <Text>Я Никогда Не… врал своей второй половинке.</Text>
+  </Question>
+  <Question>
+    <ID>129</ID>
+    <Text>Я Никогда Не… имел вторую половинку, которую бы боялся познакомить со своими родителями.</Text>
+  </Question>
+  <Question>
+    <ID>130</ID>
+    <Text>Я Никогда Не… был в “восстанавлювающих” отношений.</Text>
+  </Question>
+  <Question>
+    <ID>131</ID>
+    <Text>Я Никогда Не… был в открытых отношениях.</Text>
+  </Question>
+  <Question>
+    <ID>132</ID>
+    <Text>Я Никогда Не… фантазировал о второй половинке моего друга/подруги.</Text>
+  </Question>
+  <Question>
+    <ID>133</ID>
+    <Text>Я Никогда Не… советовал кому-то бросить свою вторую половинку.</Text>
+  </Question>
+  <Question>
+    <ID>134</ID>
+    <Text>Я Никогда Не… пытался украсть чью-то вторую половинку.</Text>
+  </Question>
+  <Question>
+    <ID>135</ID>
+    <Text>Я Никогда Не… говорил “я тебя люблю”, не придавая этому значения.</Text>
+  </Question>
+  <Question>
+    <ID>136</ID>
+    <Text>Я Никогда Не… пробовал ароматизированный презерватив.</Text>
+  </Question>
+  <Question>
+    <ID>137</ID>
+    <Text>Я Никогда Не… кидал друга на вечеринки, чтобы заняться сексом.</Text>
+  </Question>
+  <Question>
+    <ID>138</ID>
+    <Text>Я Никогда Не… был назван просто другом.</Text>
+  </Question>
+  <Question>
+    <ID>139</ID>
+    <Text>Я Никогда Не… оскорблял(а) бывшего/бывшую после разрыва.</Text>
+  </Question>
+  <Question>
+    <ID>140</ID>
+    <Text>Я Никогда Не… встречался с кем-то больше года.</Text>
+  </Question>
+  <Question>
+    <ID>141</ID>
+    <Text>Я Никогда Не… приводил кого-то в кино на первом свидании.</Text>
+  </Question>
+  <Question>
+    <ID>142</ID>
+    <Text>Я Никогда Не… влюблялся в кого-то на первом свидании.</Text>
+  </Question>
+  <Question>
+    <ID>143</ID>
+    <Text>Я Никогда Не… принимал участия в быстрых свиданиях.</Text>
+  </Question>
+  <Question>
+    <ID>144</ID>
+    <Text>Я Никогда Не… переспал с кем-то, кого встретил онлайн.</Text>
+  </Question>
+  <Question>
+    <ID>145</ID>
+    <Text>Я Никогда Не… поцеловал кого-то и сразу пожалел об этом.</Text>
+  </Question>
+  <Question>
+    <ID>146</ID>
+    <Text>Я Никогда Не… отвергал кого-то, потому что этот человек был слишком волосатым.</Text>
+  </Question>
+  <Question>
+    <ID>147</ID>
+    <Text>Я Никогда Не… притворялся, что мне что-то нравится, только потому, что это нравилось моей второй половинке/человеку, который мне нравился.</Text>
+  </Question>
+  <Question>
+    <ID>148</ID>
+    <Text>Я Никогда Не… изменял.</Text>
+  </Question>
+  <Question>
+    <ID>149</ID>
+    <Text>Я Никогда Не… был влюблен.</Text>
+  </Question>
+  <Question>
+    <ID>150</ID>
+    <Text>Я Никогда Не… плакал(а) перед бывшим/бывшей.</Text>
+  </Question>
+  <Question>
+    <ID>151</ID>
+    <Text>Я Никогда Не… был кинут второй половинкой.</Text>
+  </Question>
+  <Question>
+    <ID>152</ID>
+    <Text>Я Никогда Не… был преследован бывшей половинкой в сети.</Text>
+  </Question>
+  <Question>
+    <ID>153</ID>
+    <Text>Я Никогда Не… использовал Tinder для свиданий.</Text>
+  </Question>
+  <Question>
+    <ID>154</ID>
+    <Text>Я Никогда Не… флиртовал с кем-то в онлайн игре.</Text>
+  </Question>
+  <Question>
+    <ID>155</ID>
+    <Text>Я Никогда Не… был на слепом свидании.</Text>
+  </Question>
+  <Question>
+    <ID>156</ID>
+    <Text>Я Никогда Не… просматривал фото своей половинки.</Text>
+  </Question>
+  <Question>
+    <ID>157</ID>
+    <Text>Я Никогда Не… говорил плохие вещей за спиной своей половинки.</Text>
+  </Question>
+  <Question>
+    <ID>158</ID>
+    <Text>Я Никогда Не… встречался с одним и тем же человеком дважды.</Text>
+  </Question>
+  <Question>
+    <ID>159</ID>
+    <Text>Я Никогда Не… думал о женитьбе/замужестве с моей второй половинкой.</Text>
+  </Question>
+  <Question>
+    <ID>160</ID>
+    <Text>Я Никогда Не… расставался через смс.</Text>
+  </Question>
+  <Question>
+    <ID>161</ID>
+    <Text>Я Никогда Не… пукал вместе с какашками по-случайности.</Text>
+  </Question>
+  <Question>
+    <ID>162</ID>
+    <Text>Я Никогда Не… работал в ресторане быстрого питания.</Text>
+  </Question>
+  <Question>
+    <ID>163</ID>
+    <Text>Я Никогда Не… был в доме с приведениями.</Text>
+  </Question>
+  <Question>
+    <ID>164</ID>
+    <Text>Я Никогда Не… обманывал, чтобы не получить штраф.</Text>
+  </Question>
+  <Question>
+    <ID>165</ID>
+    <Text>Я Никогда Не… ломал мебель, сев на неё.</Text>
+  </Question>
+  <Question>
+    <ID>166</ID>
+    <Text>Я Никогда Не… преследовал того, кто мне нравится.</Text>
+  </Question>
+  <Question>
+    <ID>167</ID>
+    <Text>Я Никогда Не… думал, что какой-нибудь мультипликационный персонаж горяч.</Text>
+  </Question>
+  <Question>
+    <ID>168</ID>
+    <Text>Я Никогда Не… ел только конфеты на ужин.</Text>
+  </Question>
+  <Question>
+    <ID>169</ID>
+    <Text>Я Никогда Не… был арестован.</Text>
+  </Question>
+  <Question>
+    <ID>170</ID>
+    <Text>Я Никогда Не… делал вид, что я в музыкальном клипе.</Text>
+  </Question>
+  <Question>
+    <ID>171</ID>
+    <Text>Я Никогда Не… был выгнан из бара.</Text>
+  </Question>
+  <Question>
+    <ID>172</ID>
+    <Text>Я Никогда Не… влюблялся в родителя друга.</Text>
+  </Question>
+  <Question>
+    <ID>173</ID>
+    <Text>Я Никогда Не… делал отвратительный смузи.</Text>
+  </Question>
+  <Question>
+    <ID>174</ID>
+    <Text>Я Никогда Не… ковырялся в носу, а потом ел козявки.</Text>
+  </Question>
+  <Question>
+    <ID>175</ID>
+    <Text>Я Никогда Не… ломал свой мобильный телефон.</Text>
+  </Question>
+  <Question>
+    <ID>176</ID>
+    <Text>Я Никогда Не… заходил в ванну, когда там был кто-то ещё.</Text>
+  </Question>
+  <Question>
+    <ID>177</ID>
+    <Text>Я Никогда Не… крал деньги из копилки брата/сестры.</Text>
+  </Question>
+  <Question>
+    <ID>178</ID>
+    <Text>Я Никогда Не… танцевал в лифте.</Text>
+  </Question>
+  <Question>
+    <ID>179</ID>
+    <Text>Я Никогда Не… отправлял пьяного голосового сообщения.</Text>
+  </Question>
+  <Question>
+    <ID>180</ID>
+    <Text>Я Никогда Не… нажимал “отправить” и тут же жалел об этом.</Text>
+  </Question>
+  <Question>
+    <ID>181</ID>
+    <Text>Я Никогда Не… бил стену.</Text>
+  </Question>
+  <Question>
+    <ID>182</ID>
+    <Text>Я Никогда Не… курил травку.</Text>
+  </Question>
+  <Question>
+    <ID>183</ID>
+    <Text>Я Никогда Не… говорил “я тебя люблю”, не чувствуя этого.</Text>
+  </Question>
+  <Question>
+    <ID>184</ID>
+    <Text>Я Никогда Не… украл что-то из магазина.</Text>
+  </Question>
+  <Question>
+    <ID>185</ID>
+    <Text>Я Никогда Не… боялся клоунов.</Text>
+  </Question>
+  <Question>
+    <ID>186</ID>
+    <Text>Я Никогда Не… вёл себя, как человек, которого сложно добиться.</Text>
+  </Question>
+  <Question>
+    <ID>187</ID>
+    <Text>Я Никогда Не… завтракал в постели.</Text>
+  </Question>
+  <Question>
+    <ID>188</ID>
+    <Text>Я Никогда Не… воровал у своих родителей.</Text>
+  </Question>
+  <Question>
+    <ID>189</ID>
+    <Text>Я Никогда Не… хотел заняться сексом с кем-то, кто сейчас играет в эту игру.</Text>
+  </Question>
+  <Question>
+    <ID>190</ID>
+    <Text>Я Никогда Не… занимался сексом в сауне/бане.</Text>
+  </Question>
+  <Question>
+    <ID>191</ID>
+    <Text>Я Никогда Не… имел(а) двойного проникновения.</Text>
+  </Question>
+  <Question>
+    <ID>192</ID>
+    <Text>Я Никогда Не… занимался сексом с более чем тремя людьми за одну ночь.</Text>
+  </Question>
+  <Question>
+    <ID>193</ID>
+    <Text>Я Никогда Не… связывал кого-то.</Text>
+  </Question>
+  <Question>
+    <ID>194</ID>
+    <Text>Я Никогда Не… был прерван во время секса.</Text>
+  </Question>
+  <Question>
+    <ID>195</ID>
+    <Text>Я Никогда Не… выставлял себя напоказ из-за спора.</Text>
+  </Question>
+  <Question>
+    <ID>196</ID>
+    <Text>Я Никогда Не… занимался сексом без защиты.</Text>
+  </Question>
+  <Question>
+    <ID>197</ID>
+    <Text>Я Никогда Не… спал с коллегой.</Text>
+  </Question>
+  <Question>
+    <ID>198</ID>
+    <Text>Я Никогда Не… оставался друзьями с бывшим/бывшей.</Text>
+  </Question>
+  <Question>
+    <ID>199</ID>
+    <Text>Я Никогда Не… имел глаза завязанными во время секса.</Text>
+  </Question>
+  <Question>
+    <ID>200</ID>
+    <Text>Я Никогда Не… занимался сексом до 16 лет.</Text>
+  </Question>
+  <Question>
+    <ID>201</ID>
+    <Text>Я Никогда Не… спал с боссом ради повышения.</Text>
+  </Question>
+  <Question>
+    <ID>202</ID>
+    <Text>Я Никогда Не… занимался сексом без презерватива.</Text>
+  </Question>
+  <Question>
+    <ID>203</ID>
+    <Text>Я Никогда Не… занимался сексом с кем-то из жалости.</Text>
+  </Question>
+  <Question>
+    <ID>204</ID>
+    <Text>Я Никогда Не… занимался сексом с кем-то в этой комнате.</Text>
+  </Question>
+  <Question>
+    <ID>205</ID>
+    <Text>Я Никогда Не… был на двойном свидании с моими родителями.</Text>
+  </Question>
+  <Question>
+    <ID>206</ID>
+    <Text>Я Никогда Не… использовал овощ как секс-игрушку.</Text>
+  </Question>
+  <Question>
+    <ID>207</ID>
+    <Text>Я Никогда Не… занимался извращенным сексом.</Text>
+  </Question>
+  <Question>
+    <ID>208</ID>
+    <Text>Я Никогда Не… встречался сразу с несколькими людьми.</Text>
+  </Question>
+  <Question>
+    <ID>209</ID>
+    <Text>Я Никогда Не… теребил вторую половинку в общественном месте.</Text>
+  </Question>
+  <Question>
+    <ID>210</ID>
+    <Text>Я Никогда Не… занимался сексом в общественном месте.</Text>
+  </Question>
+  <Question>
+    <ID>211</ID>
+    <Text>Я Никогда Не… имел(а) секса во время месячных.</Text>
+  </Question>
+  <Question>
+    <ID>212</ID>
+    <Text>Я Никогда Не… спал с одноклассницей.</Text>
+  </Question>
+  <Question>
+    <ID>213</ID>
+    <Text>Я Никогда Не… платил за стриптиз.</Text>
+  </Question>
+  <Question>
+    <ID>214</ID>
+    <Text>Я Никогда Не… врал своим друзьям о сексе.</Text>
+  </Question>
+  <Question>
+    <ID>215</ID>
+    <Text>Я Никогда Не… измеряла длину члена моего партнера.</Text>
+  </Question>
+  <Question>
+    <ID>216</ID>
+    <Text>Я Никогда Не… платил за секс.</Text>
+  </Question>
+  <Question>
+    <ID>217</ID>
+    <Text>Я Никогда Не… покупал(а) тест на беременность.</Text>
+  </Question>
+  <Question>
+    <ID>218</ID>
+    <Text>Я Никогда Не… пробовала сперму.</Text>
+  </Question>
+  <Question>
+    <ID>219</ID>
+    <Text>Я Никогда Не… говорил(а) кому-то, что у них чистые гениталии.</Text>
+  </Question>
+  <Question>
+    <ID>220</ID>
+    <Text>Я Никогда Не… засовывал палец в чью-то попу.</Text>
+  </Question>
+  <Question>
+    <ID>221</ID>
+    <Text>Я Никогда Не… отказывался отсасывать из-за большого колличества волос.</Text>
+  </Question>
+  <Question>
+    <ID>222</ID>
+    <Text>Я Никогда Не… отказывался отсасывать из-за запаха.</Text>
+  </Question>
+  <Question>
+    <ID>223</ID>
+    <Text>Я Никогда Не… плакал в школе или на работе.</Text>
+  </Question>
+  <Question>
+    <ID>224</ID>
+    <Text>Я Никогда Не… игнорировал запрос в друзья в соц.сети от коллеги.</Text>
+  </Question>
+  <Question>
+    <ID>225</ID>
+    <Text>Я Никогда Не… вел себя так, как будто свободно говорю на иностранном языке.</Text>
+  </Question>
+  <Question>
+    <ID>226</ID>
+    <Text>Я Никогда Не… уходил на работу, не чистя зубы.</Text>
+  </Question>
+  <Question>
+    <ID>227</ID>
+    <Text>Я Никогда Не… спал с кем-то с работы.</Text>
+  </Question>
+  <Question>
+    <ID>228</ID>
+    <Text>Я Никогда Не… оскорблял коллегу.</Text>
+  </Question>
+  <Question>
+    <ID>229</ID>
+    <Text>Я Никогда Не… уходил на работу без дезодоранта.</Text>
+  </Question>
+  <Question>
+    <ID>230</ID>
+    <Text>Я Никогда Не… крал чью-то идею на работе.</Text>
+  </Question>
+  <Question>
+    <ID>231</ID>
+    <Text>Я Никогда Не… врал о моей работе.</Text>
+  </Question>
+  <Question>
+    <ID>232</ID>
+    <Text>Я Никогда Не… просыпал свою работу.</Text>
+  </Question>
+  <Question>
+    <ID>233</ID>
+    <Text>Я Никогда Не… был пьян на работе.</Text>
+  </Question>
+  <Question>
+    <ID>234</ID>
+    <Text>Я Никогда Не… был в ссоре/драке на работе.</Text>
+  </Question>
+  <Question>
+    <ID>235</ID>
+    <Text>Я Никогда Не… имел снов о коллегах.</Text>
+  </Question>
+  <Question>
+    <ID>236</ID>
+    <Text>Я Никогда Не… целовался с коллегой.</Text>
+  </Question>
+  <Question>
+    <ID>237</ID>
+    <Text>Я Никогда Не… был возбужден на работе.</Text>
+  </Question>
+  <Question>
+    <ID>238</ID>
+    <Text>Я Никогда Не… носил форму.</Text>
+  </Question>
+  <Question>
+    <ID>239</ID>
+    <Text>Я Никогда Не… ненавидел коллегу.</Text>
+  </Question>
+  <Question>
+    <ID>240</ID>
+    <Text>Я Никогда Не… работал в заведении быстрого питания.</Text>
+  </Question>
+  <Question>
+    <ID>241</ID>
+    <Text>Я Никогда Не… ходил на работу с похмельем.</Text>
+  </Question>
+  <Question>
+    <ID>242</ID>
+    <Text>Я Никогда Не… имел ситуации, где начальник на меня кричал бы.</Text>
+  </Question>
+  <Question>
+    <ID>243</ID>
+    <Text>Я Никогда Не… врал в своем резюме.</Text>
+  </Question>
+  <Question>
+    <ID>244</ID>
+    <Text>Я Никогда Не… был уволен с работы.</Text>
+  </Question>
+  <Question>
+    <ID>245</ID>
+    <Text>Я Никогда Не… уходил на работу без нижнего белья.</Text>
+  </Question>
+  <Question>
+    <ID>246</ID>
+    <Text>Я Никогда Не… переворачивал стол.</Text>
+  </Question>
+  <Question>
+    <ID>247</ID>
+    <Text>Я Никогда Не… занимался сексом с боссом.</Text>
+  </Question>
+  <Question>
+    <ID>248</ID>
+    <Text>Я Никогда Не… фантазировал о половинке друга.</Text>
+  </Question>
+  <Question>
+    <ID>249</ID>
+    <Text>Я Никогда Не… влюблялся в того, кого я знаю, что они в браке.</Text>
+  </Question>
+  <Question>
+    <ID>250</ID>
+    <Text>Я Никогда Не… влюблялся во вторую половинку друга/подруги.</Text>
+  </Question>
+  <Question>
+    <ID>251</ID>
+    <Text>Я Никогда Не… имел ситуации, где не знал, что ответить на слова “я тебя люблю”.</Text>
+  </Question>
+  <Question>
+    <ID>252</ID>
+    <Text>Я Никогда Не… целовал кого-то, не зная их имени.</Text>
+  </Question>
+  <Question>
+    <ID>253</ID>
+    <Text>Я Никогда Не… расставался по телефону.</Text>
+  </Question>
+  <Question>
+    <ID>254</ID>
+    <Text>Я Никогда Не… был в отношениях с двумя людьми из одной семьи.</Text>
+  </Question>
+  <Question>
+    <ID>255</ID>
+    <Text>Я Никогда Не… получал любовного письма.</Text>
+  </Question>
+  <Question>
+    <ID>256</ID>
+    <Text>Я Никогда Не… врал о том, что я одинок, потому что не был заинтересован в человеке.</Text>
+  </Question>
+  <Question>
+    <ID>257</ID>
+    <Text>Я Никогда Не… флиртовал с кем-то, кто был в отношениях.</Text>
+  </Question>
+  <Question>
+    <ID>258</ID>
+    <Text>Я Никогда Не… целовался с бывшей половинкой друга.</Text>
+  </Question>
+  <Question>
+    <ID>259</ID>
+    <Text>Я Никогда Не… занималась сексом с кем-то вдвое старше меня.</Text>
+  </Question>
+  <Question>
+    <ID>260</ID>
+    <Text>Я Никогда Не… был влюблен в половинку своего друга.</Text>
+  </Question>
+  <Question>
+    <ID>261</ID>
+    <Text>Я Никогда Не… давал номер совего телефона.</Text>
+  </Question>
+  <Question>
+    <ID>262</ID>
+    <Text>Я Никогда Не… приглашал человека со своего свидания на семейное мероприятие.</Text>
+  </Question>
+  <Question>
+    <ID>263</ID>
+    <Text>Я Никогда Не… был влюблён в лучшую подругу.</Text>
+  </Question>
+  <Question>
+    <ID>264</ID>
+    <Text>Я Никогда Не… встречался с кем-то только ради того, чтобы заставить кого-то ревновать.</Text>
+  </Question>
+  <Question>
+    <ID>265</ID>
+    <Text>Я Никогда Не… подсматривал за кем-то, когда они переодевались.</Text>
+  </Question>
+  <Question>
+    <ID>266</ID>
+    <Text>Я Никогда Не… был недоволен телом своей половинки.</Text>
+  </Question>
+  <Question>
+    <ID>267</ID>
+    <Text>Я Никогда Не… расставался с кем-то публично.</Text>
+  </Question>
+  <Question>
+    <ID>268</ID>
+    <Text>Я Никогда Не… был на сайте знакомств.</Text>
+  </Question>
+  <Question>
+    <ID>269</ID>
+    <Text>Я Никогда Не… встречался с кем-то старше меня.</Text>
+  </Question>
+  <Question>
+    <ID>270</ID>
+    <Text>Я Никогда Не… переспал с кем-то, кого я только что встретил в течение первых 24 часов.</Text>
+  </Question>
+  <Question>
+    <ID>271</ID>
+    <Text>Я Никогда Не… был назван дразнилкой.</Text>
+  </Question>
+  <Question>
+    <ID>272</ID>
+    <Text>Я Никогда Не… был на Тиндер свидании.</Text>
+  </Question>
+  <Question>
+    <ID>273</ID>
+    <Text>Я Никогда Не… нарушал правила пяти секунд.</Text>
+  </Question>
+  <Question>
+    <ID>274</ID>
+    <Text>Я Никогда Не… готовил себе коктейль.</Text>
+  </Question>
+  <Question>
+    <ID>275</ID>
+    <Text>Я Никогда Не… говорил людям, что я не пукаю.</Text>
+  </Question>
+  <Question>
+    <ID>276</ID>
+    <Text>Я Никогда Не… брил себе яйца.</Text>
+  </Question>
+  <Question>
+    <ID>277</ID>
+    <Text>Я Никогда Не… говорил случайно “я тебя люблю”.</Text>
+  </Question>
+  <Question>
+    <ID>278</ID>
+    <Text>Я Никогда Не… смеялся во время того, как печатал “ЛОЛ”.</Text>
+  </Question>
+  <Question>
+    <ID>279</ID>
+    <Text>Я Никогда Не… сосал свой большой палец.</Text>
+  </Question>
+  <Question>
+    <ID>280</ID>
+    <Text>Я Никогда Не… водил пьяным.</Text>
+  </Question>
+  <Question>
+    <ID>281</ID>
+    <Text>Я Никогда Не… был тем, нам кем издевались.</Text>
+  </Question>
+  <Question>
+    <ID>282</ID>
+    <Text>Я Никогда Не… ходил по-маленькому в общественный бассейн.</Text>
+  </Question>
+  <Question>
+    <ID>283</ID>
+    <Text>Я Никогда Не… подсматривал за кем-то в душе.</Text>
+  </Question>
+  <Question>
+    <ID>284</ID>
+    <Text>Я Никогда Не… играл в игры более 24 часов.</Text>
+  </Question>
+  <Question>
+    <ID>285</ID>
+    <Text>Я Никогда Не… отправлял свою еду обратно повару.</Text>
+  </Question>
+  <Question>
+    <ID>286</ID>
+    <Text>Я Никогда Не… передаривал свой подарок кому-то еще.</Text>
+  </Question>
+  <Question>
+    <ID>287</ID>
+    <Text>Я Никогда Не… пытался подстричь свои волосы.</Text>
+  </Question>
+  <Question>
+    <ID>288</ID>
+    <Text>Я Никогда Не… ел, а потом смывался, не заплатив.</Text>
+  </Question>
+  <Question>
+    <ID>289</ID>
+    <Text>Я Никогда Не… промахивался во время ходьбы по-маленькому.</Text>
+  </Question>
+  <Question>
+    <ID>290</ID>
+    <Text>Я Никогда Не… соглашался с чем-то, что Дональд Трам сказал.</Text>
+  </Question>
+  <Question>
+    <ID>291</ID>
+    <Text>Я Никогда Не… пил ликер прямо из бутылки.</Text>
+  </Question>
+  <Question>
+    <ID>292</ID>
+    <Text>Я Никогда Не… был с бывшей любовью своего лучшего друга.</Text>
+  </Question>
+  <Question>
+    <ID>293</ID>
+    <Text>Я Никогда Не… носил Кроксы.</Text>
+  </Question>
+  <Question>
+    <ID>294</ID>
+    <Text>Я Никогда Не… наставлял на кого-то пистолет.</Text>
+  </Question>
+  <Question>
+    <ID>295</ID>
+    <Text>Я Никогда Не… был одет, как противолопожный пол.</Text>
+  </Question>
+  <Question>
+    <ID>296</ID>
+    <Text>Я Никогда Не… поправлял свои пуговицы в зависимости от того, кто находился в комнате.</Text>
+  </Question>
+  <Question>
+    <ID>297</ID>
+    <Text>Я Никогда Не… пукнул перед тем, кто мне нравился.</Text>
+  </Question>
+  <Question>
+    <ID>298</ID>
+    <Text>Я Никогда Не… ел масло без ничего.</Text>
+  </Question>
+  <Question>
+    <ID>299</ID>
+    <Text>Я Никогда Не… прыгал в бассейн в одежде.</Text>
+  </Question>
+  <Question>
+    <ID>300</ID>
+    <Text>Я Никогда Не… пробовал самогон.</Text>
+  </Question>
+  <Question>
+    <ID>301</ID>
+    <Text>Я Никогда Не… ввозил что-то в другую страну.</Text>
+  </Question>
+  <Question>
+    <ID>302</ID>
+    <Text>Я Никогда Не… рассавался с кем-то в пьяном виде.</Text>
+  </Question>
+  <Question>
+    <ID>303</ID>
+    <Text>Я Никогда Не… пытался произвести впечатление на того, кто мне нравился, казавшись осведомленным о тех вещах, которые им нравятся.</Text>
+  </Question>
+  <Question>
+    <ID>304</ID>
+    <Text>Я Никогда Не… отправлял грязного сообщения не тому человеку.</Text>
+  </Question>
+  <Question>
+    <ID>305</ID>
+    <Text>Я Никогда Не… гуглил свое имя, чтобы узнать, что высвечивается.</Text>
+  </Question>
+  <Question>
+    <ID>306</ID>
+    <Text>Я Никогда Не… какал в свои штаны случайно.</Text>
+  </Question>
+  <Question>
+    <ID>307</ID>
+    <Text>Я Никогда Не… был атакован собакой.</Text>
+  </Question>
+  <Question>
+    <ID>308</ID>
+    <Text>Я Никогда Не… пользовался общественным туалетом, в котором не было туалетной бумаги.</Text>
+  </Question>
+  <Question>
+    <ID>309</ID>
+    <Text>Я Никогда Не… пролезал вне очереди.</Text>
+  </Question>
+</ArrayOfQuestion>
