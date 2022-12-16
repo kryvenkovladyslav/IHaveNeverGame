@@ -18,6 +18,17 @@ namespace IHaveNeverGame.Controllers
 
 
         public IActionResult Index() => View();
+        public IActionResult Game(bool isQuestionChanged = false, int priviousQuestionID = default)
+        {
+            var viewComponent = new GameViewComponent
+            {
+                Players = playerRepository.Entities.ToList(),
+                Questions = questionRepository.Entities.ToList(),
+                IsQuestionChangeed = isQuestionChanged,
+                QuestionID = priviousQuestionID
+            };
+            return View(viewComponent);
+        }
 
         [HttpPost]
         public IActionResult CreateConfigure(int playersCount, int countOfShots)
@@ -52,22 +63,8 @@ namespace IHaveNeverGame.Controllers
             toChange.ShotCount++;
             playerRepository.Update(toChange);
 
-
             return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
         }
-
-        public IActionResult Game(bool isQuestionChanged = false, int priviousQuestionID = default)
-        {
-            var viewComponent = new GameViewComponent
-            {
-                Players = playerRepository.Entities.ToList(),
-                Questions = questionRepository.Entities.ToList(),
-                IsQuestionChangeed = isQuestionChanged,
-                QuestionID = priviousQuestionID
-            };
-            return View("Game", viewComponent);
-        }
-
         public IActionResult ChangeScore(long id, long questionID)
         {
             var player = playerRepository.GetByID(id);
@@ -85,10 +82,7 @@ namespace IHaveNeverGame.Controllers
                 return RedirectToAction(nameof(ShowResultPage));
             else
                 return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
-
-            
         }
-
         public IActionResult ChangeQuestion(long id)
         {
             questionRepository.Delete(id);

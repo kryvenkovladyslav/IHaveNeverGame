@@ -10,11 +10,9 @@
         var random = new Random();
         return Model.Questions[random.Next(1, Model.Questions.Count)];
     }
-    Question Question()
-    {
-        return Model.IsQuestionChangeed ? GetRandomQuestion() : Model.Questions.Where(q => q.ID == Model.QuestionID).First();
-    }
-    Question question = Question();
+
+    Question question = Model.IsQuestionChangeed ? 
+        GetRandomQuestion() : Model.Questions.Where(q => q.ID == Model.QuestionID).First();
 }
 
 <div class="text-center align-items-center mt-5">
@@ -76,7 +74,6 @@
                                    asp-route-questionID="@question.ID">Отказаться</a>
                             }
                         </td>
-
                     </tr>
                 }
             }

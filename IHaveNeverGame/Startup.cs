@@ -12,10 +12,8 @@ namespace IHaveNeverGame
     {
         public IConfiguration Configuration { get; }
 
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
+        public Startup(IConfiguration configuration) => Configuration = configuration;
+        
 
         public void ConfigureServices(IServiceCollection services)
         {
@@ -25,8 +23,6 @@ namespace IHaveNeverGame
             services.AddSingleton(typeof(IdentifierGenerator));
             services.AddSingleton<IRepository<Player>, PlayerRepository>();
             services.AddTransient<IRepository<Question>, QuestionRepository>();
-            
-           
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -9,18 +9,9 @@ namespace IHaveNeverGame.Models.Repository
         private List<Question> questions;
         public IEnumerable<Question> Entities => questions;
         public QuestionRepository(IDataLoader<Question> dataLoader) => questions = dataLoader.LoadData().ToList();
-        
         public void AddRange(IEnumerable<Question> entities) => questions = entities.ToList();
-        public void Update(Question entity) { }
-
-        public Question GetByID(long id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Delete(long id)
-        {
-            questions.Remove(questions.Where(question => question.ID == id).First());
-        }
+        public void Update(Question entity) => GetByID(entity.ID).Text = entity.Text;
+        public Question GetByID(long id) => questions.Where(question => question.ID == id).First();
+        public void Delete(long id) => questions.Remove(GetByID(id));
     }
 }
