@@ -47,24 +47,56 @@ namespace IHaveNeverGame.Controllers
             var viewComponent = new GameViewComponent
             {
                 Players = playerRepository.Entities.ToList(),
-                Questions = questionRepository.Entities.ToList()
+                Questions = questionRepository.Entities.ToList(),
+                IsQuestionChangeed = false,
+                QuestionID = 1
             };
 
             return View("Game", viewComponent);
         }
 
-        public IActionResult AddShot(long id, int shotCount)
+        public IActionResult AddShot(long id, int shotCount, long questionID)
         {
             var toChange = playerRepository.Entities.ToList().Where(entity => entity.ID == id).First();
             toChange.ShotCount++;
             playerRepository.Update(toChange);
 
+
+            return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
+        }
+
+        public IActionResult Game(bool isQuestionChanged = false, int priviousQuestionID = default)
+        {
             var viewComponent = new GameViewComponent
             {
                 Players = playerRepository.Entities.ToList(),
-                Questions = questionRepository.Entities.ToList()
+                Questions = questionRepository.Entities.ToList(),
+                IsQuestionChangeed = isQuestionChanged,
+                QuestionID = priviousQuestionID
             };
-            return View("Game",viewComponent);
+            return View("Game", viewComponent);
+        }
+
+        public IActionResult ChangeScore(long id, long questionID)
+        {
+            var player = playerRepository.GetByID(id);
+            player.Score++;
+            player.ShotCount = 0;
+            
+            return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
+        }
+        public IActionResult ChangeStatus(long id, int questionID)
+        {
+            playerRepository.GetByID(id).IsInGame = false;
+            return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
+        }
+
+        public IActionResult ChangeQuestion(long id)
+        {
+            questionRepository.Delete(id);
+            
+            return RedirectToAction(nameof(Game), new { isQuestionChanged = true });
+            
         }
         public IActionResult Privacy()
         {

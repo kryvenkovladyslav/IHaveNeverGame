@@ -5,6 +5,8 @@
         @foreach (var player in Model)
         {
             <input type="hidden" asp-for="@Model[@index].ID" value="@(++IdentifierGenerator.Identifier)" />
+            <input type="hidden" asp-for="@Model[@index].IsInGame" value="@true" />
+
             <div class="form-group">
                 <label class="form-control" asp-for="@Model[index].Name">Имя</label>
                 <input class="form-control" type="text" asp-for="@Model[index].Name" />

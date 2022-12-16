@@ -10,6 +10,7 @@ namespace IHaveNeverGame.Models.Domain
         public string Name { get; set; }
         public int ShotCount { get; set; }
         public long Score { get; set; }
+        public bool IsInGame { get; set; }
 
         public override string ToString()
         {

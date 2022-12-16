@@ -17,5 +17,12 @@ namespace IHaveNeverGame.Models.Repository
             original.Score = original.Score;
             original.ShotCount = original.ShotCount;
         }
+
+        public Player GetByID(long id) => Entities.Where(player => player.ID == id).First();
+
+        public void Delete(long id)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
