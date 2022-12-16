@@ -12,7 +12,7 @@ namespace IHaveNeverGame.Models.Repository
         public void AddRange(IEnumerable<Player> entities) => players = entities.ToList();
         public void Update(Player entity)
         {
-            var original = Entities.Where(player => player.ID == entity.ID).First();
+            var original = GetByID(entity.ID);
             original.Name = entity.Name;
             original.Score = original.Score;
             original.ShotCount = original.ShotCount;

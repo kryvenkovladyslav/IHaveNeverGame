@@ -59,7 +59,7 @@ namespace IHaveNeverGame.Controllers
 
         public IActionResult AddShot(long id, int shotCount, long questionID)
         {
-            var toChange = playerRepository.Entities.ToList().Where(entity => entity.ID == id).First();
+            var toChange = playerRepository.GetByID(id);
             toChange.ShotCount++;
             playerRepository.Update(toChange);
 
