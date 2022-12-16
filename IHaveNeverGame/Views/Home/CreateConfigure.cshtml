@@ -1,19 +1,29 @@
 ﻿@model List<Player>
-@{ int index = default; }
-<div>
-    <form asp-action="StartGame" asp-controller="Home" method="post">
-        @foreach (var player in Model)
-        {
-            <input type="hidden" asp-for="@Model[@index].ID" value="@(++IdentifierGenerator.Identifier)" />
-            <input type="hidden" asp-for="@Model[@index].IsInGame" value="@true" />
+@{ 
+    ViewData["Title"] = "Configuration Page";
+    int index = default;
+    int position = 1;
+}
 
-            <div class="form-group">
-                <label class="form-control" asp-for="@Model[index].Name">Имя</label>
-                <input class="form-control" type="text" asp-for="@Model[index].Name" />
-            </div>
-            index++;
-        }
-        <button class="btn btn-sm btn-success" type="submit">Начать игру!</button>
+<div class="text-center mt-5">
+    <h1 class="display-4">Настраиваем игру...</h1>
+    <hr />
+    <div class="mt-5">
+        <form asp-action="StartGame" asp-controller="Home" method="post">
+            @foreach (var player in Model)
+            {
+                <input type="hidden" asp-for="@Model[@index].ID" value="@(++IdentifierGenerator.Identifier)" />
+                <input type="hidden" asp-for="@Model[@index].IsInGame" value="@true" />
 
-    </form>
+                <div class="form-group">
+                    <label class="font-weight-bold" asp-for="@Model[index].Name">Имя @(position)-го игрока:</label>
+                    <input class="form-control mb-3" type="text" asp-for="@Model[index].Name" required />
+                </div>
+                position++;
+                index++;
+            }
+            <button class="btn btn-sm btn-success" type="submit">Начать игру!</button>
+        </form>
+    </div>
+    <hr />
 </div>

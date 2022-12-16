@@ -1,5 +1,6 @@
 ﻿@model GameViewComponent
 @{ 
+    ViewData["Title"] = "Game Page";
     bool IsAnchorEnabled(Player player)
     {
         return player.ShotCount != GameContext.CountOfShots;
@@ -16,9 +17,21 @@
     Question question = Question();
 }
 
-<div class="text-center align-items-center">
+<div class="text-center align-items-center mt-5">
+    <hr />
+    <div class="mt-5">
+        <div>
+            <h5 class="display-4 mb-5">@question.Text</h5>
+            <a class="btn btn-block btn-outline-primary"
+               asp-action="ChangeQuestion"
+               asp-controller="Home"
+               asp-route-id="@question.ID">Следущий вопрос...</a>
 
-    <table class="table table-bordered">
+        </div>
+    </div>
+    <hr />
+
+    <table class="table table-bordered mt-5">
         <thead>
             <tr>
                 <th>Игрок</th>
@@ -32,24 +45,35 @@
             {
                 @if (player.IsInGame)
                 {
-                    <tr>
+                    <tr class="font-weight-bold">
                         <td>@player.Name</td>
                         <td>@player.ShotCount</td>
                         <td>@player.Score</td>
                         <td>
                             @if (IsAnchorEnabled(player))
                             {
-                                <a asp-action="AddShot" asp-controller="Home" asp-route-id="@player.ID" asp-route-shotCount="@player.ShotCount"  asp-route-questionID="@question.ID">+</a>
+                                <a class="btn btn-block btn-primary btn-warning"
+                                   asp-action="AddShot"
+                                   asp-controller="Home"
+                                   asp-route-id="@player.ID"
+                                   asp-route-shotCount="@player.ShotCount"
+                                   asp-route-questionID="@question.ID">+</a>
                             }
                             else
                             {
-                                <a asp-action="ChangeScore" asp-controller="Home" asp-route-id="@player.ID"  asp-route-questionID="@question.ID">Пей!</a>
+                                <a class="btn btn-block btn-success"
+                                   asp-action="ChangeScore"
+                                   asp-controller="Home" asp-route-id="@player.ID"
+                                   asp-route-questionID="@question.ID">Пей!</a>
                             }
                         </td>
                         <td>
                             @if (!IsAnchorEnabled(player))
                             {
-                                <a asp-action="ChangeStatus" asp-controller="Home" asp-route-id="@player.ID" asp-route-questionID="@question.ID">Отказываюсь</a>
+                                <a class="btn btn-block btn-danger"
+                                   asp-action="ChangeStatus"
+                                   asp-controller="Home" asp-route-id="@player.ID"
+                                   asp-route-questionID="@question.ID">Отказаться</a>
                             }
                         </td>
 
@@ -58,12 +82,4 @@
             }
         </tbody>
     </table>
-
-    <div>
-        <div>
-            <h2>@question.Text)</h2>
-            <a asp-action="ChangeQuestion" asp-controller="Home" asp-route-id="@question.ID">Следущий вопрос</a>
-        </div>
-    </div>
-
 </div>

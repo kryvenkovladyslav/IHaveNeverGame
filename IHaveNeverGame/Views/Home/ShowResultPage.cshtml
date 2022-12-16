@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Player>
+@{ 
+    ViewData["Title"] = "Result Page";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4">Результаты</h1>
+    <hr />
+    <div class="mt-5">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Очки</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in Model.ToList().OrderByDescending(player => player.Score))
+                {
+                    <tr class="font-weight-bold">
+                        <td>@player.Name</td>
+                        <td>@player.Score</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <hr />
+</div>

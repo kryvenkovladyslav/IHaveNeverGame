@@ -3,7 +3,6 @@ using IHaveNeverGame.Models.Domain;
 using IHaveNeverGame.Models.Repository;
 using IHaveNeverGame.Models.ViewComonents;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -14,20 +13,12 @@ namespace IHaveNeverGame.Controllers
     {
         private readonly IRepository<Question> questionRepository;
         private readonly IRepository<Player> playerRepository;
-        private readonly ILogger<HomeController> logger;
+        public HomeController(IRepository<Player> playerRepository, IRepository<Question> questionRepository) =>
+            (this.questionRepository, this.playerRepository) = (questionRepository, playerRepository);
 
-        public HomeController(IRepository<Player> playerRepository, IRepository<Question> questionRepository,
-            ILogger<HomeController> logger)
-        {
-            this.questionRepository = questionRepository;
-            this.playerRepository = playerRepository;
-            this.logger = logger;
-        }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Index() => View();
+
         [HttpPost]
         public IActionResult CreateConfigure(int playersCount, int countOfShots)
         {
@@ -85,29 +76,28 @@ namespace IHaveNeverGame.Controllers
             
             return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
         }
+        public IActionResult ShowResultPage() => View(playerRepository.Entities);
         public IActionResult ChangeStatus(long id, int questionID)
         {
             playerRepository.GetByID(id).IsInGame = false;
-            return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
+
+            if (playerRepository.Entities.Where(player => player.IsInGame).Count() == 1)
+                return RedirectToAction(nameof(ShowResultPage));
+            else
+                return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
+
+            
         }
 
         public IActionResult ChangeQuestion(long id)
         {
             questionRepository.Delete(id);
-            
             return RedirectToAction(nameof(Game), new { isQuestionChanged = true });
-            
         }
-        public IActionResult Privacy()
-        {
-           
-            return View();
-        }
-
+        public IActionResult Privacy() => View();
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        public IActionResult Error() =>
+            View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });   
     }
 }
