@@ -3,6 +3,7 @@ using IHaveNeverGame.Models.Domain;
 using IHaveNeverGame.Models.Repository;
 using IHaveNeverGame.Models.ViewComonents;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -45,13 +46,14 @@ namespace IHaveNeverGame.Controllers
         public IActionResult StartGame(List<Player> players)
         {
             playerRepository.AddRange(players);
+            var random = new Random();
 
             var viewComponent = new GameViewComponent
             {
                 Players = playerRepository.Entities.ToList(),
                 Questions = questionRepository.Entities.ToList(),
                 IsQuestionChangeed = false,
-                QuestionID = 1
+                QuestionID = random.Next(1, questionRepository.Entities.Count() + 1)
             };
 
             return View("Game", viewComponent);
@@ -86,7 +88,10 @@ namespace IHaveNeverGame.Controllers
         public IActionResult ChangeQuestion(long id)
         {
             questionRepository.Delete(id);
-            return RedirectToAction(nameof(Game), new { isQuestionChanged = true });
+            if (questionRepository.Entities.Count() == 0)
+                return RedirectToAction(nameof(ShowResultPage));
+            else
+                return RedirectToAction(nameof(Game), new { isQuestionChanged = true });
         }
         public IActionResult Privacy() => View();
         

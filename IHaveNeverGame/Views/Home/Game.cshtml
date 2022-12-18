@@ -8,11 +8,10 @@
     Question GetRandomQuestion()
     {
         var random = new Random();
-        return Model.Questions[random.Next(0, Model.Questions.Count - 1)];
+        return Model.Questions[random.Next(0, Model.Questions.Count)];
     }
 
-    Question question = Model.IsQuestionChangeed ? 
-        GetRandomQuestion() : Model.Questions.Where(q => q.ID == Model.QuestionID).First();
+    Question question = Model.IsQuestionChangeed ? GetRandomQuestion() : Model.Questions.Where(q => q.ID == Model.QuestionID).First();
 }
 
 <div class="text-center align-items-center mt-5">

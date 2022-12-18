@@ -22,7 +22,7 @@ namespace IHaveNeverGame
             services.AddSingleton(typeof(GameContext));
             services.AddSingleton(typeof(IdentifierGenerator));
             services.AddSingleton<IRepository<Player>, PlayerRepository>();
-            services.AddTransient<IRepository<Question>, QuestionRepository>();
+            services.AddSingleton<IRepository<Question>, QuestionRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
