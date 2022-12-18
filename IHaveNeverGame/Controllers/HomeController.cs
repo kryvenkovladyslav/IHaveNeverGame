@@ -59,10 +59,18 @@ namespace IHaveNeverGame.Controllers
             return View("Game", viewComponent);
         }
 
-        public IActionResult AddShot(long id, int shotCount, long questionID)
+        public IActionResult AddShot(long id, long questionID)
         {
             var toChange = playerRepository.GetByID(id);
             toChange.ShotCount++;
+            playerRepository.Update(toChange);
+
+            return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
+        }
+        public IActionResult DeleteShot(long id, long questionID)
+        {
+            var toChange = playerRepository.GetByID(id);
+            toChange.ShotCount--;
             playerRepository.Update(toChange);
 
             return RedirectToAction(nameof(Game), new { priviousQuestionID = questionID });
